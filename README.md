@@ -14,4 +14,5 @@ Also see the screenshots at screenshots.png
 ## Docker
 
 As part of the University of Helsinki online course [DevOps with Docker](https://devopswithdocker.com),
-this application has been dockerized and uploaded to [Docker Hub](https://hub.docker.com/repository/docker/dockerunofficial/cim_visualizer).
+this application has been dockerized and is auto-deployed to [Docker Hub](https://hub.docker.com/repository/docker/dockerunofficial/cim_visualizer).
+The application is [**running on a cloud service**](https://cim-visualizer.onrender.com); a GitHub Action triggers it to pull the latest docker image.
